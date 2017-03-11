@@ -1,12 +1,12 @@
 # R
-1+1
-2*5
-"Arr, Marley!"
-3<5 
-2+2 == 5
-X <- 45
-X /2
-x <- "Arr, Marley!"
+1+1 #add
+2*5 #multipy
+"Arr, Marley!" #prints whatever is in the quote
+3<5  # says the statement is true or false
+2+2 == 5 # twice the = will say if it is true or not
+X < - 5  # assign value to the integer
+X /2 # functions with the integer
+x <- "Arr, Marley!" " assign statement to integer
 sum(1,3,5)
 rep("Ah HO!" , times=3)
 sqrt(16)
