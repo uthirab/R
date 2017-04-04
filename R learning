@@ -1,0 +1,2 @@
+head(dataset,10)  #prints first 10 rows
+tail(dataset,10) #prints last 10 rows
