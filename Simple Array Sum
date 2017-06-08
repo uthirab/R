@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num<- suppressWarnings(readLines(file("stdin")))
+num<- strsplit(num, " ")
+num2<- num[-1]
+total<-sum(as.numeric(num2[[1]]))
+write(as.character(total), stdout())
