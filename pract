@@ -1,0 +1,55 @@
+ x<- sample(1:9, 1)
+> y<- sample(10:99, 1)
+> z<-x+y
+> readinteger <- function()
++ { 
++   n <- readline(prompt="Enter an integer: ")
++   return(as.integer(n))
++ }
+> 
+> print(readinteger())
+Enter an integer: 4
+[1] 4
+> z == readinteger
+Error in z == readinteger : 
+  comparison (1) is possible only for atomic and list types
+> match(z,readinteger)
+Error in match(z, readinteger) : 'match' requires vector arguments
+> if ( z == readinteger)
++ {
++ print(correct)     
++ }
+Error in z == readinteger : 
+  comparison (1) is possible only for atomic and list types
+> else
+Error: unexpected 'else' in "else"
+> x
+[1] 2
+> x
+[1] 2
+> y
+[1] 31
+> y
+[1] 31
+> z
+[1] 33
+> x
+[1] 2
+> readinteger
+function()
+{ 
+  n <- readline(prompt="Enter an integer: ")
+  return(as.integer(n))
+}
+> 
+> n
+Error: object 'n' not found
+> print(readinteger)
+function()
+{ 
+  n <- readline(prompt="Enter an integer: ")
+  return(as.integer(n))
+}
+> print(readinteger())
+Enter an integer: 56
+[1] 56
